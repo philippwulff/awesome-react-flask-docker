@@ -7,7 +7,9 @@ tailwindcss
 react-router-dom
 ```
 
-# Installation
+# Running
+
+## In Development
 
 You need `Node.js` (to use `npm`) and `Python` with the required dependencies:
 ```bash
@@ -19,9 +21,7 @@ conda activate backend
 conda install --file backend-react-client/requirements.txt
 ```
 
-# Running
-
-## In Development
+Running the app:
 
 ```bash
 # Run the backend before the frontend.
