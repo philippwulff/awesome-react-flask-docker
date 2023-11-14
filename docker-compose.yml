@@ -1,7 +1,7 @@
 # Docker Compose file that orchestrates the launch of the two containers as part of a network.
 
 services:
-  api:
+  backend:
     build:
       # configures the root directory for the build
       context: .      
@@ -11,7 +11,7 @@ services:
     image: app-backend
     # does not need to map any ports, because it is now an internal service that only needs 
     # to be reachable by the client container, but not from the outside world.
-  client:
+  frontend:
     build:
       context: .
       dockerfile: Dockerfile.frontend
