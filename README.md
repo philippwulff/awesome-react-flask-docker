@@ -11,29 +11,17 @@ react-router-dom
 
 ## In Development
 
-You need `Node.js` (to use `npm`). On MacOS:
+You need `Node.js` (to use `npm`) and `Python` with the required dependencies. On MacOS:
 ```bash
 # For the React package manager
 brew install node
-```
-On Ubuntu:
-```bash
-sudo apt update
-sudo apt install nodejs
-# Test node
-node -v
-sudo apt install -y docker.io
-apt install docker-compose
-# Test Docker
-sudo docker run hello-world
-```
-and `Python` with the required dependencies:
-```bash
 # Python dependencies
 conda create -n backend Python=3.9
 conda activate backend
 conda install --file backend-react-client/requirements.txt
 ```
+
+Install [Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) and [docker-compose](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
 
 Running the app:
 
