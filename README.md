@@ -49,8 +49,10 @@ Using a Gunicorn server for the Python project, and nginx as a reverse proxy in 
 ### Building the Docker images together with docker-compose
 
 ```bash
-docker-compose up
+docker compose up
 ```
+
+or `docker-compose up` on older versions. Use `docker compose up -d --no-deps --build` to rebuild.
 
 ### Building the Docker images separately for testing
 ```bash
