@@ -5,6 +5,7 @@ Libraries already included:
 ```bash
 tailwindcss
 react-router-dom
+polished
 ```
 
 # Running

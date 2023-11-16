@@ -8,16 +8,14 @@ import Navbar from './components/navbar';
 function App() {
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <BrowserRouter>
-          <Navbar/>
-          <Routes>
-            <Route path="/" Component={HomePage}/>
-            <Route path="/page2" Component={Page2}/>
-          </Routes>
-        </BrowserRouter>
-      </header>
+    <div className="bg-background min-h-screen">
+      <BrowserRouter className="flex h-full w-full"> 
+        <Navbar/>
+        <Routes>
+          <Route path="/" Component={HomePage}/>
+          <Route path="/page2" Component={Page2}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

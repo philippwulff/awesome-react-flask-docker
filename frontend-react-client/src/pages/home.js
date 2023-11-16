@@ -23,13 +23,13 @@ const HomePage = () => {
   );
 
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
       <img src={logo} className="App-logo" alt="logo" />
-      <p>
+      <p className='text-textColor'>
         Edit <code>src/App.js</code> and save to reload.
       </p>
       <a
-        className="App-link"
+        className="text-textColor-light hover:underline"
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
