@@ -83,3 +83,10 @@ Running the backend Docker image for testing: `docker run --rm -p 4000:4000 app-
 Based on the [React + Flask + Docker tutorial](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project) from Miguel Grinberg. [Part2](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react--flask-project), [Part3](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application), [Part4](https://blog.miguelgrinberg.com/post/how-to-dockerize-a-react-flask-project).
 
 Set up tailwindcss according to these [instructions](https://tailwindcss.com/docs/guides/create-react-app).
+
+
+# Other Hackathon Stuff
+
+- [Color Generator](https://coolors.co)
+- [Perfect Devpost Template](https://devpost.com/software/example-template-submission)
+- [6-3-5 Method Miro Board](https://miro.com/miroverse/635-method-6-people-3-ideas-5-minutes/)
